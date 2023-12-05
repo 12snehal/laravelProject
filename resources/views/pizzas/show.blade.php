@@ -17,7 +17,7 @@
         <button>Complete Order</button>
     </form>
 
-    <form action="{{ route('pizza.destroy',$pizza->id) }}" method="GET">
+    <form action="{{ route('pizza.update',$pizza->id) }}" method="GET">
         <!-- @csrf
         @method('UPDATE') -->
         <button>Update Order</button>
